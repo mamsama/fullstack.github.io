@@ -1,0 +1,73 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .heading__navbar-item,
+    .heading__login-name {
+        display: none;
+    }
+    .heading__login-icon {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 26px;
+    }
+    .heading__login-icon-1,
+    .heading__login-icon-2,
+    .heading__login-icon-3 {
+        margin: 0 16px;
+        font-size: 1.8rem;
+    }
+    .header {
+        background-size: cover;
+    }
+    .heading__login-icon-3 {
+        display: none;
+    }
+    .heading__login-icon-menu {
+        display: flex;
+        margin-left: 16px;
+    }
+    .heading__login-icon-3-sub-list {
+        box-shadow: unset;
+    }
+    .heading__login-icon-3-sub-item {
+        border-top: unset;
+    }
+    .heading__login-icon-1-sub,
+    .heading__login-icon-2-sub
+    {
+        opacity: 0;
+    }
+    .heading__login-icon-1-sum,
+.heading__login-icon-2-sum,
+.heading__login-icon-menu-sum {
+    display: block;
+}
+   
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .header__main-sub {
+        text-align: center;
+    }
+    .header{
+       background-position: center;
+        
+    }
+    .main__footer-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer__item-btn {
+        width: 100%;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header{
+        background-position:center;
+         
+     }
+}
