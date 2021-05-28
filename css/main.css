@@ -18,7 +18,6 @@
     height: 60px;
     position: fixed;
     width: 100%;
-    display: none;
     z-index: 999;
     align-items: center;
     padding: 0 16px;
@@ -126,21 +125,17 @@
     cursor: pointer;
 }
 .heading__login-icon-1:hover .heading__login-icon-1-sub { 
-    /* display: block; */
+    display: block;
 }
 .heading__login-icon-2:hover {
     cursor: pointer;
 }
 .heading__login-icon-2:hover .heading__login-icon-2-sub { 
-    /* 
+    
+    display: block;
     
     
     
-    
-    
-    
-    
-    */
 }
 .heading__login-icon-1::before ,
 .heading__login-icon-4::before{
